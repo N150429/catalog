@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>v email</title>
+</head>
+<body>
+<h2> email generated</h2>
+<form action="{{url_for('email_success')}}" method="POST">
+	OTP:<input type="text" name="otp" placeholder="enter otp">
+	<br>
+	<input type="submit" value="send">
+</form>
+</body>
+</html>
